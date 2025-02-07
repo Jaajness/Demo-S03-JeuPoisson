@@ -13,13 +13,19 @@ public class JeuPoisson : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+
+
         //Debug.Log(poidsSaumon);
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(poidsSaumon);
+
+        Vector3 deplacement = new Vector3(1f. 0f, 0f);
+        _sardine.transfor.position += deplacement * Time.deltaTime;
+                //Debug.Log(poidsSaumon);
 
     }
 
